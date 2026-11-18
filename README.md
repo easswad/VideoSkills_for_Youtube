@@ -1,4 +1,6 @@
-# 3DVID: cartoon 3D true-story Shorts, from topic to YouTube
+# 3D-VID Skill for YTB Shorts
+
+> **Full setup guide (install, render PC, Remote Control, Google Drive, Zapier, YouTube): [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)**
 
 **3DVID** is a Claude skill that produces a complete ~55-70 second vertical YouTube Short in which flat 2D cartoon characters act out a true story inside a colourful 3D toon world. A narrator explains the physics behind it with an everyday analogy. One run covers everything:
 
@@ -47,14 +49,14 @@
 
 ---
 
-## Install the skill
+## Install the skill (summary; details in [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md))
 
 **Claude.ai / Claude app:** download this repo as a ZIP, or grab `3DVID.zip` from Releases. In Claude, go to **Settings → Capabilities → Skills → Upload skill** and upload the zip that contains the `3dvid/` folder.
 
 **Claude Code:** copy the folder into your skills directory:
 ```bash
-git clone https://github.com/easswad/3dvid-skill
-cp -r 3dvid-skill/3dvid ~/.claude/skills/3dvid
+git clone https://github.com/easswad/3D-VID-Skill-for-YTB-Shorts
+cp -r 3D-VID-Skill-for-YTB-Shorts/3dvid ~/.claude/skills/3dvid
 ```
 
 Then ask Claude something like *"Make a 3DVID short about a trending true story"* or *"/3dvid"*.
