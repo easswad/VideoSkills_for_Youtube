@@ -1,0 +1,92 @@
+{
+ "title": "This Free App Just Replaced Paid AI Voice Tools",
+ "voice": "af_heart",
+ "speed": 1.05,
+ "lead": 0.4,
+ "outro": 0.9,
+ "gap": 0.2,
+ "music": "bed",
+ "sources": [
+  "github.com/debpalash/VoiceStudio README and repo stats, checked 2026-11-17"
+ ],
+ "lines": [
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "This free app can clone voices, dub videos, and narrate audiobooks.",
+   "caps": "THIS *FREE APP | CLONES *VOICES | DUBS *VIDEOS | NARRATES *AUDIOBOOKS"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "And it runs on your own computer.",
+   "caps": "ON YOUR OWN *COMPUTER"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "It's called VoiceStudio.",
+   "caps": "IT'S CALLED *VOICESTUDIO"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Over one hundred and twelve thousand stars on GitHub, in about seven months.",
+   "caps": "OVER *112,000 | STARS ON *GITHUB | IN ABOUT *7 MONTHS"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Clone a voice from a clean recording.",
+   "caps": "*CLONE A VOICE | FROM A CLEAN *RECORDING"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Describe a voice in words, and it builds it for you.",
+   "caps": "*DESCRIBE A VOICE | IN *WORDS | IT *BUILDS IT"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Dub whole videos into other languages, timed to the original.",
+   "caps": "*DUB WHOLE VIDEOS | INTO OTHER *LANGUAGES | *TIMED TO THE ORIGINAL"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Dictate, transcribe, and narrate full audiobooks.",
+   "caps": "*DICTATE | *TRANSCRIBE | NARRATE *AUDIOBOOKS"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Six hundred and forty-six languages.",
+   "caps": "*646 LANGUAGES"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "No account. No subscription. Everything runs on your own hardware.",
+   "caps": "NO *ACCOUNT | NO *SUBSCRIPTION | ON YOUR OWN *HARDWARE"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Mac, Windows, Linux, and even phones.",
+   "caps": "*MAC | *WINDOWS | *LINUX | EVEN *PHONES"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "One rule: only clone voices you have permission to use.",
+   "caps": "ONE *RULE | ONLY WITH *PERMISSION"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Save this before you forget, and comment which free AI tool I should reveal next!",
+   "caps": "*SAVE THIS | BEFORE YOU *FORGET | WHICH TOOL *NEXT"
+  }
+ ]
+}

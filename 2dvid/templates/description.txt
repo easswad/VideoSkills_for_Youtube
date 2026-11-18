@@ -1,0 +1,18 @@
+<HOOK LINE with the payoff, 1 sentence> 🤯
+
+<TOOL / TOPIC> in 50 seconds:
+✅ <feature 1>
+⚡ <feature 2>
+🔒 <feature 3>
+💸 <price / license: "100% free and open source (MIT)">
+🛠️ <how to get it: one command or "link in the repo">
+
+💬 <comment question: "Would you let an AI do X for you? Yes or no 👇">
+
+📚 Sources:
+- <github.com/owner/repo (README, stars checked YYYY-MM-DD)>
+- <official page / report>
+
+#shorts #ai #aitools #opensource #<tool> #tech #github
+
+Join the channel: https://www.youtube.com/@easswad

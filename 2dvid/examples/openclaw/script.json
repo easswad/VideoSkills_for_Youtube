@@ -1,0 +1,24 @@
+{
+  "title": "This Free AI Assistant Actually Does Things",
+  "voice": "am_fenrir",
+  "speed": 1.0,
+  "lead": 0.5,
+  "outro": 1.4,
+  "gap": 0.32,
+  "music": "tension",
+  "sources": [
+    "GitHub, openclaw/openclaw (README, checked 2026-11-17): 394,618 stars, created 2025-11-24, MIT; 'The AI that really does things. Any OS. Any Platform.'; runs on your own computer; channels Discord, iMessage, Slack, Teams, Telegram, WhatsApp and 20+ more; native apps macOS, iOS, Android, Windows, Linux; state, memory and credentials live on your hardware; models (Claude, Codex, local) are swappable plugins; no paid tier, hosted service or token; stewarded by the OpenClaw Foundation, a 501(c)(3); one-line installer for macOS, Linux, Windows; tools run on the host unless sandboxing is configured. Images: README banner, docs/whatsapp-openclaw.jpg, macOS onboarding screenshots, app and channel icons from the repo."
+  ],
+  "lines": [
+    { "text": "Imagine texting your AI on WhatsApp, and it actually does the work for you.", "caps": "Texting your AI | on *WhatsApp, | and it *actually | does the *work." },
+    { "text": "That's OpenClaw, a free, open-source AI assistant with nearly four hundred thousand stars on GitHub.", "caps": "That's *OpenClaw, | *free and | *open-source, | nearly *400,000 | GitHub *stars." },
+    { "text": "It runs on your own computer, not someone else's cloud.", "caps": "It runs on | *your computer, | not someone's *cloud." },
+    { "text": "And it meets you where you already chat: WhatsApp, Telegram, Slack, Discord, iMessage, and twenty more.", "caps": "It meets you | where you *chat: | *WhatsApp, | *Telegram, | *Slack, | *Discord, | *iMessage, | and *20 more." },
+    { "text": "Its memory and your logins stay on your own hardware.", "caps": "Its *memory | and your *logins | stay on *your hardware." },
+    { "text": "Pick the brain: Claude, Codex, or a local model, and swap it anytime.", "caps": "Pick the *brain: | *Claude, | *Codex, | or a *local model, | *swap it anytime." },
+    { "text": "There's no paid tier, no hosted service, and no crypto token. A non-profit foundation runs it.", "caps": "No *paid tier, | no *hosted service, | no *token. | A *non-profit | runs it." },
+    { "text": "Install it on Mac, Windows or Linux with one command.", "caps": "*Mac, | *Windows | or *Linux, | *one command." },
+    { "text": "Just remember: it can run tools on your machine, so read the security guide first.", "caps": "Just *remember: | it runs *tools | on your *machine, | read the *security guide." },
+    { "text": "Would you let an AI run your computer? Tell me in the comments.", "caps": "Would you let | an AI run | your *computer? | Tell me in the *comments.", "gap": 0.3 }
+  ]
+}

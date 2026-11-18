@@ -1,3 +1,14 @@
+# VideoSkills for YouTube
+
+Two Claude skills that turn a topic into a finished, uploaded YouTube Short:
+
+| Skill | What it makes | Download | Setup guide |
+|---|---|---|---|
+| **[3D-VID Skill for YTB Shorts](#3d-vid-skill-for-ytb-shorts)** (`3dvid/`) | True-story cartoon 3D shorts (Remotion + three.js), UK narrator | [3DVID.zip](https://github.com/easswad/VideoSkills_for_Youtube/raw/main/dist/3DVID.zip) | [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) |
+| **[2D-VID Skill for YTB Shorts](#2d-vid-skill-for-ytb-shorts)** (`2dvid/`) | AI-tool reveals and AI news in comic 2D or 3D (hacker lab / real studio with the tool's real images), 1-2 voices | [2DVID.zip](https://github.com/easswad/VideoSkills_for_Youtube/raw/main/dist/2DVID.zip) | [docs/DEPLOYMENT-2DVID.md](docs/DEPLOYMENT-2DVID.md) |
+
+---
+
 # 3D-VID Skill for YTB Shorts
 
 > **Full setup guide (install, render PC, Remote Control, Google Drive, Zapier, YouTube): [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)**
@@ -146,3 +157,58 @@ python 3dvid/scripts/cover/make_cover.py frame.png cover.jpg --font Poppins-Blac
 - `templates/bridge/`, `templates/audio/` (base engine) and `scripts/qa/` come from [mromidev/claude-animated-shorts] (MIT). The licence is in `3dvid/templates/LICENSE-bridge-template-MIT.txt`.
 - Molasses short source, captions system, cover generator, voice scripts and workflow: © 2026 easswad, MIT licence (see `LICENSE`).
 - Kokoro TTS (Apache-2.0) and Poppins (SIL OFL) are downloaded separately and are not bundled.
+
+---
+
+# 2D-VID Skill for YTB Shorts
+
+> **Download: [2DVID.zip](https://github.com/easswad/VideoSkills_for_Youtube/raw/main/dist/2DVID.zip)** · **Full setup guide: [docs/DEPLOYMENT-2DVID.md](docs/DEPLOYMENT-2DVID.md)**
+
+**2DVID** makes 40-70 s faceless Shorts about free AI / GitHub tools and AI news, entirely in code with a free local voice, then uploads them into your Shorts playlist. It builds on Anthropic's **faceless-shorts** skill (engine, voice, timing, mixer) and adds the looks, kit and channel workflow below.
+
+| Look | Example (made with this skill) |
+|---|---|
+| Comic 2D, one host | [This FREE App Just Replaced Paid AI Voice Tools](https://www.youtube.com/watch?v=k2RmWPm4lKk) |
+| Comic 2D, two-host debate | [PRO vs CON: 7 AI Models Battle It Out](https://www.youtube.com/watch?v=LpLmAzLJWv0) |
+| Hacker lab 3D | [This FREE Tool Can Reverse Engineer Any App](https://www.youtube.com/watch?v=H94JmIFTZwo) |
+| Real studio 3D + real repo images | [This FREE AI Assistant Actually Does Things For You](https://www.youtube.com/watch?v=yRIkDlfrWY8) |
+
+## What you get
+
+| Stage | What the skill does | File |
+|---|---|---|
+| 1. Topic | Next tool from your list, facts from the repo README (stars, license, features) | SKILL.md |
+| 2. Script | 130-180 words, one line per cut, `*KEYWORD` captions, sources | `templates/plan.md`, `examples/*/script.json` |
+| 3. Kit | Comic layer (60+ inked props, hosts with lip-sync, SFX, bubbles, stamps, halftone), panel frame, yellow-marker captions in the safe zone; or 3D lab / studio sets | `kit/`, `scripts/apply_kit.py` |
+| 4. Voice | 1 or 2+ free Kokoro voices, per-line speaker tags | `scripts/multivoice.py` |
+| 5. Lip-sync | Voice loudness at 30 fps drives mouths | `scripts/env_rms.py` |
+| 6. Real images | Logos/screenshots pulled from the tool's GitHub repo | `scripts/repo_images.sh` |
+| 7. Render | Parallel chunks, lossless join, mixed audio | `scripts/render_chunks.sh` |
+| 8. Cover | 1080x1920 sticker title + subscribe pill, < 2 MB, `<name>-cover.jpg` | `scripts/make_cover.py` |
+| 9. Upload | Approval → Drive for desktop → Zapier Find a File → YouTube Upload → Shorts playlist | SKILL.md step 10, DEPLOYMENT-2DVID.md |
+
+## Layout
+```
+dist/2DVID.zip              ← ready-to-upload skill zip
+2dvid/
+├── SKILL.md                ← the workflow Claude follows
+├── kit/                    ← comic.js (2D), lab.js + studio.js (3D), patches/ (captions marker, panel frame)
+├── scripts/                ← apply_kit.py, multivoice.py, env_rms.py, repo_images.sh, render_chunks.sh, make_cover.py
+├── templates/              ← description.txt, plan.md
+└── examples/               ← voicestudio, ai-models, rea, openclaw (script.json + shots.js)
+```
+
+## Install
+1. Turn on / set up **faceless-shorts** (Anthropic skill): `bash <faceless-shorts>/scripts/setup.sh` → "All set".
+2. **Claude app:** download [2DVID.zip](https://github.com/easswad/VideoSkills_for_Youtube/raw/main/dist/2DVID.zip) → **Settings → Capabilities → Skills → Upload skill**.
+   **Claude Code:** `cp -r VideoSkills_for_Youtube/2dvid ~/.claude/skills/2dvid`
+3. Optional upload automation: Google Drive for desktop + Zapier MCP (Drive Find a File, YouTube Upload Video, YouTube API Request). Step by step in [docs/DEPLOYMENT-2DVID.md](docs/DEPLOYMENT-2DVID.md).
+4. Ask: *"Use 2D-VID: make a comic short about <tool>"*.
+
+## Requirements
+Node.js 22+, ffmpeg, Chrome/Chromium, Python 3.10+ (faceless-shorts venv: numpy, scipy, kokoro-onnx, faster-whisper), Pillow for covers. ~0.9 GB of free model downloads (done by faceless-shorts setup).
+
+## Credits and licences
+- 2D-VID kit, scripts, examples and workflow: © 2026 easswad, MIT (see `LICENSE`).
+- Requires Anthropic's **faceless-shorts** skill (engine, `capture.mjs`, `voice.py`, `words.py`, `mix.py`), which is **not** included here and keeps its own terms.
+- Kokoro TTS (Apache-2.0) and Whisper (MIT) are downloaded by faceless-shorts setup. Tool logos/screenshots shown in examples belong to their projects and are fetched at build time, not bundled.
