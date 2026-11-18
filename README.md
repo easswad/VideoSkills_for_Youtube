@@ -143,6 +143,6 @@ python 3dvid/scripts/cover/make_cover.py frame.png cover.jpg --font Poppins-Blac
 
 ## Credits and licences
 
-- `templates/bridge/`, `templates/audio/` (base engine) and `scripts/qa/` come from [mromidev/claude-animated-shorts](https://github.com/mromidev/claude-animated-shorts) (MIT). The licence is in `3dvid/templates/LICENSE-bridge-template-MIT.txt`.
+- `templates/bridge/`, `templates/audio/` (base engine) and `scripts/qa/` come from [mromidev/claude-animated-shorts] (MIT). The licence is in `3dvid/templates/LICENSE-bridge-template-MIT.txt`.
 - Molasses short source, captions system, cover generator, voice scripts and workflow: © 2026 easswad, MIT licence (see `LICENSE`).
 - Kokoro TTS (Apache-2.0) and Poppins (SIL OFL) are downloaded separately and are not bundled.
