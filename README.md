@@ -30,6 +30,7 @@
 ## Repository layout
 
 ```
+dist/3DVID.zip                 ← ready-to-upload skill zip
 3dvid/                         ← the skill folder (copy or zip this)
 ├── SKILL.md                   ← the full step-by-step workflow Claude follows
 ├── templates/
@@ -51,7 +52,7 @@
 
 ## Install the skill (summary; details in [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md))
 
-**Claude.ai / Claude app:** download this repo as a ZIP, or grab `3DVID.zip` from Releases. In Claude, go to **Settings → Capabilities → Skills → Upload skill** and upload the zip that contains the `3dvid/` folder.
+**Claude.ai / Claude app:** download [`dist/3DVID.zip`](dist/3DVID.zip) (open it on GitHub and click the download button). In Claude, go to **Settings → Capabilities → Skills → Upload skill** and upload the zip that contains the `3dvid/` folder.
 
 **Claude Code:** copy the folder into your skills directory:
 ```bash

@@ -41,7 +41,7 @@ The key trick is that **no public file link is ever needed**. Drive for desktop 
 ## Part 1: Install the skill in Claude
 
 ### Option A: Claude app / claude.ai (recommended)
-1. Download `3DVID.zip` from this repository's **Releases**, or click **Code → Download ZIP**. If you use Download ZIP, re-zip just the `3dvid/` folder so `3dvid/SKILL.md` sits at the top level of the zip.
+1. Download [`dist/3DVID.zip`](../dist/3DVID.zip) from this repository (open it and click **Download raw file**). It already has `3dvid/SKILL.md` at the top level. If you change the skill, re-zip just the `3dvid/` folder the same way.
 2. In Claude open **Settings → Capabilities**, and make sure **Code execution and file creation** is on.
 3. Under **Skills**, click **Upload skill** and choose the zip.
 4. Toggle **3dvid** on.
