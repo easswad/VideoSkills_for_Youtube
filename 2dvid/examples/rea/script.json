@@ -1,0 +1,25 @@
+{
+  "title": "This Free Tool Can Reverse Engineer Any App",
+  "voice": "am_fenrir",
+  "speed": 1.0,
+  "lead": 0.5,
+  "outro": 1.4,
+  "gap": 0.32,
+  "music": "tension",
+  "sources": [
+    "GitHub, morluto/rea (README, checked 2026-11-17): 464,858 stars, created 2026-04-14, MIT; 'It can inspect the app without its source code, explain how the feature works, show the evidence'; setup 'npx rea-agents setup'; works with Claude Code, Codex, Cursor, Gemini CLI, Grok Build; analysis runs locally; targets native binaries, Android APKs, websites, JS/Electron, .NET, Unity/Godot, GGUF/safetensors"
+  ],
+  "lines": [
+    { "text": "Ever seen a feature in an app and wondered exactly how it works?", "caps": "Ever seen a *feature | and wondered | how it *works?" },
+    { "text": "Well, a free tool just made that possible, and it's exploding on GitHub.", "caps": "A *free tool | just made it *possible, | and it's *exploding | on *GitHub." },
+    { "text": "It's called REA, short for Reverse Engineer Anything,", "caps": "It's called *REA: | Reverse Engineer *Anything." },
+    { "text": "and it passed four hundred and sixty thousand stars in about seven months.", "caps": "*460,000 stars | in about *seven months." },
+    { "text": "You plug it into your AI coding agent, like Claude Code, Codex or Cursor,", "caps": "Plug it into | your AI *agent, | *Claude Code, | Codex or *Cursor," },
+    { "text": "then ask how a feature works, and your agent inspects the app, even without its source code,", "caps": "ask how a feature *works, | your agent *inspects it, | even without | the *source code," },
+    { "text": "right down to the binary level, and shows you the evidence.", "caps": "down to the *binary level, | and shows the *evidence." },
+    { "text": "It reads desktop apps, Android apps, websites, game files, and even AI model files,", "caps": "*Desktop apps, | *Android apps, | *websites, | *game files, | even AI *models," },
+    { "text": "all running locally, with one command to set it up.", "caps": "all running *locally, | *one command | to set it up." },
+    { "text": "Just one rule: only use it on apps you own or have permission to analyze.", "caps": "One *rule: | only apps you *own | or have *permission | to analyze." },
+    { "text": "Which free AI tool should I break down next? Tell me in the comments.", "caps": "Which free AI tool | *next? | Tell me in the *comments.", "gap": 0.3 }
+  ]
+}

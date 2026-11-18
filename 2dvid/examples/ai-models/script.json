@@ -1,0 +1,132 @@
+{
+ "title": "Pro vs Con: 7 AI Models",
+ "voice": "af_heart",
+ "speed": 1.05,
+ "lead": 0.4,
+ "outro": 0.9,
+ "gap": 0.2,
+ "music": "bed",
+ "sources": [
+  "OpenAI DevDay, Oct 2025: ChatGPT has about 800 million weekly users; OpenAI notes 'ChatGPT can make mistakes'",
+  "Google blog, Feb 2024: 'Gemini image generation got it wrong' - image generation of people paused",
+  "Anthropic: Claude models offer 200K-token context and are widely used for coding; Claude does not generate images",
+  "Open Source Initiative: Meta's Llama license is not an open source license (usage restrictions)",
+  "DeepSeek-V3 technical report (Dec 2024): ~$5.6M reported final training-run cost; R1 (Jan 2025) comparable to top reasoning models; Italy's Garante blocked the app (Jan 2025); Australia, Taiwan, South Korea restricted it on government devices; documented censorship of topics sensitive to the Chinese government",
+  "xAI / X: Grok uses real-time X posts; July 2025 antisemitic replies, xAI apologized",
+  "Mistral AI (France): open-weight models under Apache 2.0, Le Chat assistant; funding far below US leaders (e.g. ~EUR 1.7B round, Sept 2025)"
+ ],
+ "lines": [
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Seven AI models. Seven reasons to love them.",
+   "caps": "SEVEN AI *MODELS | SEVEN REASONS TO *LOVE"
+  },
+  {
+   "who": "con",
+   "voice": "bf_emma",
+   "text": "And seven reasons to worry. Let's fight!",
+   "caps": "SEVEN REASONS TO *WORRY | LET'S *FIGHT"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Number one, ChatGPT! Around eight hundred million people use it every week.",
+   "caps": "NUMBER ONE *CHATGPT | *800 MILLION | EVERY *WEEK"
+  },
+  {
+   "who": "con",
+   "voice": "bf_emma",
+   "text": "Sure. But the best stuff costs money, and it can still make things up.",
+   "caps": "THE BEST STUFF *COSTS | IT CAN *MAKE | THINGS *UP"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Number two, Gemini. It lives right inside Gmail, Docs and Search.",
+   "caps": "NUMBER TWO *GEMINI | INSIDE *GMAIL | DOCS AND *SEARCH"
+  },
+  {
+   "who": "con",
+   "voice": "bf_emma",
+   "text": "The same Gemini that got history so wrong, Google paused its image tool?",
+   "caps": "GOT *HISTORY | SO *WRONG | GOOGLE *PAUSED IT"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Okay. Number three, Claude. Coders love it, and it reads huge documents.",
+   "caps": "NUMBER THREE *CLAUDE | CODERS *LOVE IT | *HUGE DOCUMENTS"
+  },
+  {
+   "who": "con",
+   "voice": "bf_emma",
+   "text": "Cool. Now ask it for a picture. It can't make images.",
+   "caps": "ASK FOR A *PICTURE | IT *CAN'T | MAKE *IMAGES"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Number four, Meta's Llama. Free to download and run yourself!",
+   "caps": "NUMBER FOUR *LLAMA | *FREE TO DOWNLOAD | RUN IT *YOURSELF"
+  },
+  {
+   "who": "con",
+   "voice": "bf_emma",
+   "text": "Free, with strings attached. Its license has limits, so it's not truly open source.",
+   "caps": "*STRINGS ATTACHED | LICENSE HAS *LIMITS | NOT TRULY *OPEN"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Number five, DeepSeek. It rivaled top models for a fraction of the reported cost.",
+   "caps": "NUMBER FIVE *DEEPSEEK | *RIVALED THE TOP | A *FRACTION | OF THE *COST"
+  },
+  {
+   "who": "con",
+   "voice": "bf_emma",
+   "text": "And it dodges sensitive topics. Some governments banned it on official devices.",
+   "caps": "*DODGES TOPICS | GOVERNMENTS *BANNED IT | OFFICIAL *DEVICES"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Number six, Grok. It reads live posts from X.",
+   "caps": "NUMBER SIX *GROK | READS *LIVE | POSTS FROM *X"
+  },
+  {
+   "who": "con",
+   "voice": "bf_emma",
+   "text": "Live posts? That's partly how it ended up posting offensive replies in twenty twenty-five.",
+   "caps": "LIVE *POSTS | *OFFENSIVE | REPLIES IN *2025"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "Number seven, Mistral, from France. Fast, and many of its models are open.",
+   "caps": "NUMBER SEVEN *MISTRAL | FROM *FRANCE | MODELS ARE *OPEN"
+  },
+  {
+   "who": "con",
+   "voice": "bf_emma",
+   "text": "On way less money than the American giants.",
+   "caps": "WAY LESS *MONEY | THE AMERICAN *GIANTS"
+  },
+  {
+   "who": "pro",
+   "voice": "af_heart",
+   "text": "So, who wins?",
+   "caps": "SO WHO *WINS"
+  },
+  {
+   "who": "con",
+   "voice": "bf_emma",
+   "text": "You decide. Fight it out in the comments!",
+   "caps": "YOU *DECIDE | IN THE *COMMENTS"
+  }
+ ],
+ "speeds": {
+  "af_heart": 1.07,
+  "bf_emma": 1.05
+ }
+}
