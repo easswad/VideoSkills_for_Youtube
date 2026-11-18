@@ -55,8 +55,8 @@
 
 **Claude Code:** copy the folder into your skills directory:
 ```bash
-git clone https://github.com/easswad/3D-VID-Skill-for-YTB-Shorts
-cp -r 3D-VID-Skill-for-YTB-Shorts/3dvid ~/.claude/skills/3dvid
+git clone https://github.com/easswad/VideoSkills_for_Youtube
+cp -r VideoSkills_for_Youtube/3dvid ~/.claude/skills/3dvid
 ```
 
 Then ask Claude something like *"Make a 3DVID short about a trending true story"* or *"/3dvid"*.

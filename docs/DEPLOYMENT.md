@@ -48,14 +48,14 @@ The key trick is that **no public file link is ever needed**. Drive for desktop 
 
 ### Option B: Claude Code (CLI / desktop)
 ```bash
-git clone https://github.com/easswad/3D-VID-Skill-for-YTB-Shorts.git
+git clone https://github.com/easswad/VideoSkills_for_Youtube.git
 mkdir -p ~/.claude/skills
-cp -r 3D-VID-Skill-for-YTB-Shorts/3dvid ~/.claude/skills/3dvid
+cp -r VideoSkills_for_Youtube/3dvid ~/.claude/skills/3dvid
 ```
 On Windows (PowerShell):
 ```powershell
-git clone https://github.com/easswad/3D-VID-Skill-for-YTB-Shorts.git
-Copy-Item -Recurse 3D-VID-Skill-for-YTB-Shorts\3dvid $HOME\.claude\skills\3dvid
+git clone https://github.com/easswad/VideoSkills_for_Youtube.git
+Copy-Item -Recurse VideoSkills_for_Youtube\3dvid $HOME\.claude\skills\3dvid
 ```
 
 ✅ **Check:** start a new chat and type `/3dvid`, or ask *"What does the 3dvid skill do?"*. Claude should describe the topic → YouTube pipeline.
